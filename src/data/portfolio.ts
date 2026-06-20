@@ -5,8 +5,9 @@ export const profile = {
     "Building AI-powered applications, automation systems, and modern web platforms.",
   summary:
     "I design and build intelligent systems that combine modern web technologies, automation, and applied artificial intelligence to solve real-world problems.",
-  email: "hello@emiliocaballero.dev",
+  email: "choumw.emi@gmail.com",
   location: "Mexico City, Mexico",
+  cellphone: "+52 777 205 4417",
 };
 
 export const navItems = [
@@ -14,16 +15,22 @@ export const navItems = [
   { label: "Projects", href: "#projects" },
   { label: "Stack", href: "#tech-stack" },
   { label: "Experience", href: "#experience" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export const projects = [
   {
-    name: "Phaseolus",
+    name: "PhaseolusDB",
     description:
       "Scientific web platform for organizing, managing, and visualizing research-related information.",
     stack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Docker"],
     accent: "from-violet-400 to-indigo-400",
+  },
+  {
+    name: "Rehiletemx.com",
+    description:
+      "Dynamic editorial platform for RehileteMX, featuring reviews, specials, admin publishing tools, responsive design, and structured cultural content management.",
+    stack: ["Next.js", "TypeScript", "Prisma ORM", "PostgreSQL", "React", "Tailwind CSS", "Docker","Node.js", "Git/GitHub"],
+    accent: "from-sky-400 to-purple-400",
   },
   {
     name: "AI Quotation Assistant",
@@ -76,7 +83,7 @@ export const experience = [
 ];
 
 export const metrics = [
-  { value: "3", label: "Core project areas" },
+  { value: "4", label: "Core project areas" },
   { value: "AI", label: "Applied automation focus" },
   { value: "Full stack", label: "Product engineering" },
 ];

@@ -21,6 +21,13 @@ export function Contact() {
             </div>
 
             <div className="rounded-[1.5rem] border border-white/10 bg-black/20 p-5">
+              <p className="text-sm text-zinc-500">Phone</p>
+              <a
+                href={`tel:${profile.cellphone}`}
+                className="mt-2 block break-words text-lg font-medium text-white transition hover:text-violet-100"
+              >
+                {profile.cellphone}
+              </a>
               <p className="text-sm text-zinc-500">Email</p>
               <a
                 href={`mailto:${profile.email}`}

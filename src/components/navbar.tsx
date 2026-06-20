@@ -8,10 +8,8 @@ export function Navbar() {
         aria-label="Main navigation"
       >
         <a href="#top" className="group flex items-center gap-3">
-          <span className="grid size-9 place-items-center rounded-xl border border-white/15 bg-white/[0.06] text-sm font-semibold text-white shadow-[0_0_36px_rgba(124,58,237,0.25)]">
-            EC
-          </span>
-          <span className="hidden text-sm font-medium text-white/90 sm:inline">
+          <div className="h-8 w-8 rounded-full bg-gradient-to-tr from-violet-400 to-indigo-400 transition-transform group-hover:rotate-12" />
+          <span className="hidden text-sm font-medium text-white sm:block">
             {profile.name}
           </span>
         </a>
