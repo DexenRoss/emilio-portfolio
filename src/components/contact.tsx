@@ -43,6 +43,23 @@ export function Contact() {
                   Start a conversation
                 </a>
                 <a
+                  href={profile.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-sm font-semibold text-white transition hover:bg-white/[0.08]"
+                >
+                  View GitHub
+                </a>
+
+                <a
+                  href={profile.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-sm font-semibold text-white transition hover:bg-white/[0.08]"
+                >
+                  Connect on LinkedIn
+                </a>
+                <a
                   href="#top"
                   className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-sm font-semibold text-white transition hover:bg-white/[0.08]"
                 >

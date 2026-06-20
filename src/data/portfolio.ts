@@ -8,6 +8,8 @@ export const profile = {
   email: "choumw.emi@gmail.com",
   location: "Mexico City, Mexico",
   cellphone: "+52 777 205 4417",
+  github: "https://github.com/DexenRoss",
+  linkedin: "https://www.linkedin.com/in/oscar-emilio-caballero-jimenez/",
 };
 
 export const navItems = [
