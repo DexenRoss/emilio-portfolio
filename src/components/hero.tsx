@@ -1,4 +1,5 @@
-import { metrics, profile } from "@/data/portfolio";
+import { profile } from "@/data/portfolio";
+import { TerminalCard } from "@/components/terminal-card";
 
 export function Hero() {
   return (
@@ -40,56 +41,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative">
-          <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-br from-violet-500/20 via-indigo-500/10 to-transparent blur-2xl" />
-          <div className="rounded-[1.75rem] border border-white/12 bg-white/[0.06] p-4 shadow-2xl shadow-black/40 backdrop-blur">
-            <div className="rounded-[1.35rem] border border-white/10 bg-[#0d1020] p-5">
-              <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                <div>
-                  <p className="text-sm text-zinc-400">Portfolio signal</p>
-                  <p className="mt-1 font-medium text-white">{profile.name}</p>
-                </div>
-                <span className="rounded-full bg-violet-300/10 px-3 py-1 text-xs font-medium text-violet-100">
-                  Available
-                </span>
-              </div>
-
-              <div className="mt-6 grid gap-3">
-                {[
-                  "AI-powered workflows",
-                  "Modern web platforms",
-                  "Scientific data products",
-                ].map((item, index) => (
-                  <div
-                    key={item}
-                    className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-4"
-                  >
-                    <span className="grid size-9 place-items-center rounded-xl bg-gradient-to-br from-violet-300/20 to-indigo-300/10 text-sm font-semibold text-violet-100">
-                      0{index + 1}
-                    </span>
-                    <span className="text-sm text-zinc-200">{item}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-6 grid grid-cols-3 gap-3">
-                {metrics.map((metric) => (
-                  <div
-                    key={metric.label}
-                    className="rounded-2xl border border-white/10 bg-black/20 p-4"
-                  >
-                    <p className="text-lg font-semibold text-white">
-                      {metric.value}
-                    </p>
-                    <p className="mt-2 text-xs leading-5 text-zinc-400">
-                      {metric.label}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+        <TerminalCard />
       </div>
     </section>
   );
