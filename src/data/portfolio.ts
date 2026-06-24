@@ -33,7 +33,7 @@ export const projects = [
       "Dynamic editorial platform for RehileteMX, featuring reviews, specials, admin publishing tools, responsive design, and structured cultural content management.",
     stack: ["Next.js", "TypeScript", "Prisma ORM", "PostgreSQL", "React", "Tailwind CSS", "Docker","Node.js", "Git/GitHub"],
     accent: "from-sky-400 to-purple-400",
-    liveUrl: "https://rehilete-web.vercel.app/",
+    liveUrl: "https://rehilete-web-git-main-dexenross-projects.vercel.app/",
   },
   {
     name: "AI Quotation Assistant",
