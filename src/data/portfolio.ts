@@ -33,6 +33,7 @@ export const projects = [
       "Dynamic editorial platform for RehileteMX, featuring reviews, specials, admin publishing tools, responsive design, and structured cultural content management.",
     stack: ["Next.js", "TypeScript", "Prisma ORM", "PostgreSQL", "React", "Tailwind CSS", "Docker","Node.js", "Git/GitHub"],
     accent: "from-sky-400 to-purple-400",
+    liveUrl: "https://rehilete-web.vercel.app/",
   },
   {
     name: "AI Quotation Assistant",
@@ -40,6 +41,7 @@ export const projects = [
       "Automation system that processes client requests, extracts structured information with AI, checks service catalogs, and generates quotation drafts.",
     stack: ["OpenAI API", "Google Apps Script", "Gmail", "Google Sheets"],
     accent: "from-indigo-400 to-sky-300",
+    repoUrl: "https://github.com/DexenRoss/AI-Quotation-Assistant",
   },
   {
     name: "Osteosarcoma Classification",

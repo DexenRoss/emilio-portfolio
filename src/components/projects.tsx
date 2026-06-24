@@ -43,7 +43,30 @@ export function Projects() {
                   >
                     {item}
                   </span>
-                ))}
+                ))}  
+              </div>
+              <div className="mt-6 flex flex-wrap gap-3">
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full border border-white/15 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/10"
+                  >
+                    View Live
+                  </a>
+                )}
+
+                {project.repoUrl && (
+                  <a
+                    href={project.repoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full border border-white/15 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/10"
+                  >
+                    GitHub
+                  </a>
+                )}
               </div>
             </article>
           ))}
